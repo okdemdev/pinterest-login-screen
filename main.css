@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+}
+
+.main-card {
+  background-color: white;
+  width: 450px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 50px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.title {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+input {
+  font-family: Inter;
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 15px;
+  border-width: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+.forgot {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.form-text {
+  font-family: Inter;
+  font-size: 400;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.login-button {
+  border: none;
+  background-color: #e60023;
+  color: white;
+  font-family: Inter;
+  width: 235px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  height: 37px;
+  margin-top: 17px;
+  cursor: pointer;
+}
+
+.or {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  margin: 8px 8px;
+}
+
+.facebook {
+  border: none;
+  background-color: #1877f2;
+  color: white;
+  font-family: Inter;
+  width: 235px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  height: 37px;
+  margin-bottom: 8px;
+}
+.google {
+  border: solid;
+  background-color: transparent;
+  border-color: gray;
+  border-width: 1px;
+  color: gray;
+  font-family: Inter;
+  width: 235px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  height: 37px;
+  margin-bottom: 8px;
+}
+
+.facebook-logo {
+  height: 28px;
+  border-radius: 14px;
+}
+
+.facebook-button1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #1877f2;
+  height: 37px;
+  width: 235px;
+  border-radius: 20px;
+  font-family: Inter;
+  font-weight: 600;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 11px;
+}
+.google-logo {
+  height: 28px;
+  border-radius: 14px;
+  margin-left: 13px;
+}
+
+.google-button1 {
+  display: flex;
+  border: solid;
+  border-color: gray;
+  border-width: 1px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  height: 37px;
+  width: 235px;
+  border-radius: 20px;
+  font-family: Inter;
+  font-weight: 600;
+  color: rgb(72, 72, 72);
+  font-size: 12px;
+}
+
+.continue-google {
+  margin-right: 40px;
+}
+
+.bottom-part {
+  width: 240px;
+
+  margin-top: 20px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.a {
+  margin-bottom: 8px;
+}
+
+.b {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+hr {
+  width: 110px;
+}
+
+.a-facebook {
+  text-decoration: none;
+  color: white;
+}
+
+.a-google {
+  color: gray;
+  text-decoration: none;
+}
